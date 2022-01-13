@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# periodization 
+# periodization
 
 This package is currently under development. Functions to calculate the ACWR of several individuals (or just one individual) have been implemented.
 
