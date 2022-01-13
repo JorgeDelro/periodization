@@ -1,13 +1,16 @@
 Package: periodization
-Title: What the Package Does (One Line, Title Case)
+Title: Creates a Visual Representation of a Sport Periodization and Calculate the ACWR
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Jorge R",
+             "Fernandez-Santos",
+             role = c("aut", "cre"),
+             email = "jorgedelrosario.fernandez@uca.es",
+             comment = c(ORCID = "https://orcid.org/0000-0002-5047-2976"))
+Description: Creates a high quality visual representation of a sport training periodization. Additionally,
+             the package has functions to calculate the Acute Chronic Workload Ratio following three different
+             methods: Exponentially Weighted Moving Average (EWMA), Rolling Average Couple (RAC) and Rolling Average 
+             Uncouple (RAU).
 License: MIT + file LICENSE
 Suggests: 
     testthat (>= 3.0.0)
