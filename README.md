@@ -8,9 +8,36 @@ implemented.
 ## ACWR calculation example
 
 First, we have to load the data which consists in a database with the
-following columns: - ID: subject identifier (integer). - TL: training
-load (sRPE - integer). - weeks: week of training (integer). -
-training\_dates: date of the training (date format in excel - 7/1/22).
+following columns:
+
+<ul>
+
+<li>
+
+ID: subject identifier (integer).
+
+</li>
+
+<li>
+
+TL: training load (sRPE - integer)
+
+</li>
+
+<li>
+
+weeks: week of training (integer).
+
+</li>
+
+<li>
+
+training\_dates: date of the training (date format in excel -
+e.g. 7/1/22).
+
+</li>
+
+</ul>
 
 ``` r
 # Read dataframe (excel)
